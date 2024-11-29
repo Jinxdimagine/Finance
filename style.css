@@ -2,8 +2,32 @@ body{
     font-family: Arial, sans-serif;
     background-color: rgb(228, 244, 250);
 }
-h1{
+h1,h2{
 display: flex;
 justify-content: center;
 align-items: center;
+}
+main{
+display: grid;
+column-gap: 100px;
+}
+#IncomeSection{
+background-color: red;
+grid-column-start: 1;
+}
+#ExpensesSection{
+background-color: blue;
+grid-column-start: 2;
+}
+.row{
+    display:flex;
+    justify-content: center;
+grid-row-start:1 ;
+grid-row-end: 1;
+}
+#Income{
+    left: 0px;
+}
+#Expenses{
+    right: 0px;
 }
