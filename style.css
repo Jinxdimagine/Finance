@@ -12,11 +12,11 @@ display: grid;
 column-gap: 100px;
 }
 #IncomeSection{
-background-color: red;
+
 grid-column-start: 1;
 }
 #ExpensesSection{
-background-color: blue;
+
 grid-column-start: 2;
 }
 .row{
@@ -30,4 +30,11 @@ grid-row-end: 1;
 }
 #Expenses{
     right: 0px;
+}
+ul{
+    list-style-type: none;
+
+}
+li{
+    padding: 10px;
 }
